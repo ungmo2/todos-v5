@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { NavItem } from '../types/nav-item.type';
+import { NavItem } from '../../types/nav-item.type';
 
 @Component({
   selector: 'app-todo-nav',

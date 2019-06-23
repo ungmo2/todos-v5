@@ -9,7 +9,7 @@ import {
   TodoNavComponent,
   TodoListComponent,
   TodoFooterComponent
-} from './components';
+} from './components/todos';
 
 import { TodosFilterPipe } from './pipes/todos-filter.pipe';
 
