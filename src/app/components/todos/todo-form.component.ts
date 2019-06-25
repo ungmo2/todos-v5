@@ -38,7 +38,7 @@ export class TodoFormComponent {
   @Output() add = new EventEmitter<string>();
 
   addTodo() {
-    const content = this.content.trim();
+    const content = this.content && this.content.trim();
     this.content = '';
 
     if (!content) { return; }
